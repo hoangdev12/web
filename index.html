@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="../formregister/style.css">
+    
+</head>
+<body>
+    <h2><b>Register</b></h2>
+    <fieldset>
+        <legend><i>Please <b>fill in this form</b> to create an account</i></legend>
+        <span>Full name: </span>
+        <br>
+        <input type="text" placeholder="Input your fullname" id="fullname">
+        <br>
+        <span>Username:</span>
+        <br>
+        <input type="text" placeholder="Input your username" id="username">
+        <br>
+        <span>Password: </span>
+        <br>
+        <input type="password" placeholder="Input your password" id="password">
+        <br>
+        <span>Email: </span>
+        <br>
+        <input type="text" placeholder="Input your Email" id="email">
+        <br>
+        <span>Telephonenumber:</span>
+        <br>
+        <input type="text" placeholder="Input your phone number.." id="phone">
+        <br>
+        <span>Input Object:</span>
+        <br>
+        <input type="radio" name="duy" id="student">Student
+        <input type="radio" name="duy" id="teacher">Teacher
+        <br>
+        <span>Favorite:</span>
+        <br>
+        <input type="checkbox" name="fav" id="bad">Badminton    
+        <input type="checkbox" name="fav" id="vol">Volleyball
+        <input type="checkbox" name="fav" id="ball">Football
+        <br>
+        <span>Address:</span>
+        <br>
+        <input type="text" placeholder="Input your address" id="address">
+        <br>
+        <span>Birthday:</span>
+        <br>
+        <input type="date" id="birthday">
+        <br>
+        <span>Choose your picture:</span>
+        <br>
+        <input type="file" name="picture" id="picture">
+        <br>
+        <br>
+        <input type="submit" onclick="showInfo()">
+    </fieldset> 
+    <script src="../formregister/script.js"></script>
+</body>
+</html>
